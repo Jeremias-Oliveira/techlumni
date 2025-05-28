@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Fundo geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+/* Container vertical */
+.formulario {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-right: 200px;
+    background: rgba(255, 255, 255, 0.158);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+/* Título */
+h2 {
+    font-size: 30px;
+    color: #50A3A4;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    width: 100%;
+}
+
+/* Campos */
+select,
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+select:focus,
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #66BABE;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #66BABE;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3f8f91;
+}
+
+/* Rodapé opcional */
+p {
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #cebebe;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    font-size: 14px;
+    z-index: 5;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }

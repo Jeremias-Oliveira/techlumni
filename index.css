@@ -4,6 +4,7 @@ body {
     background-size: cover;       /* cobre toda a área */
     background-position: center;  /* centraliza a imagem */
     background-repeat: no-repeat; /* não repete */
+    background-attachment: fixed;
     height: 100vh;
     margin: 0;
     padding-top: 60px;
@@ -16,6 +17,13 @@ body {
 
   .formulario{
     flex-direction: column;
+    background: rgba(255, 255, 255, 0.158);
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 400px;
+    box-sizing: border-box;
+    margin-right: 200px; /* espaço da borda direita */
   }
   
   h2 {
@@ -25,19 +33,13 @@ body {
     padding: 15px 0;
     margin: 0;
     text-align: center;
-    font-size: 24px;
-    color: #333;
+    font-size: 30px;
+    color: #66BABE;
     z-index: 5;
   }
   
   form {
-    background: rgba(255, 255, 255, 0.158);
-    padding: 30px 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    width: 320px;
-    box-sizing: border-box;
-    margin-right: 200px; /* espaço da borda direita */
+    
     z-index: 5;
   }
   
@@ -62,7 +64,7 @@ body {
   button {
     width: 100%;
     padding: 12px;
-    background-color: #007bff;
+    background-color: #66BABE;
     border: none;
     color: white;
     font-size: 16px;
@@ -73,7 +75,7 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #489094;
   }
   
   p {
@@ -83,7 +85,7 @@ body {
     margin: 0;
     padding: 10px 0;
     text-align: center;
-    color: #555;
+    color: #cebebe;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
     font-size: 14px;
     z-index: 5;

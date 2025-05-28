@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Cadastro | Professor</title>
 </head>
 <body>
+  <div class="formulario">
     <h2>Cadastro de Professor</h2>
     <form action="/cadastrar_professor" method="POST">
       <input type="text" name="nome_completo" placeholder="Nome completo" required><br><br>
@@ -18,6 +20,8 @@
   
       <button type="submit">Cadastrar</button>
     </form>
+    <p><a href="cadastro.html">Voltar</a></p>
+  </div>
     <script>
         // Preenche automaticamente os campos com os dados do sessionStorage
         document.addEventListener("DOMContentLoaded", function () {

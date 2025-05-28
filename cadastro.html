@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
     <title>Página | Cadastro</title>
 </head>
 <body>
+  <div class="formulario">
     <h2>Cadastro</h2>
   
     <form id="formCadastro" method="POST">
@@ -21,7 +23,8 @@
       
         <button type="submit">Cadastrar</button>
       </form>
-      
+      <p>Já tem Conta?<a href="index.html">Login</a>.</p>
+    </div>
       <script>
         document.getElementById("formCadastro").addEventListener("submit", function(event) {
           event.preventDefault();

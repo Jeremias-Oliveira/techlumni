@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.png');
+    background-size: cover;       /* cobre toda a área */
+    background-position: center;  /* centraliza a imagem */
+    background-repeat: no-repeat; /* não repete */
+    height: 100vh;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+
+  .formulario{
+    flex-direction: column;
+  }
+  
+  h2 {
+    top: 0;
+    left: 0;
+    width: 320px;
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    z-index: 5;
+  }
+  
+  form {
+    background: rgba(255, 255, 255, 0.158);
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 320px;
+    box-sizing: border-box;
+    margin-right: 200px; /* espaço da borda direita */
+    z-index: 5;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: #555;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    font-size: 14px;
+    z-index: 5;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  

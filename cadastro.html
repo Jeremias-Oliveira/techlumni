@@ -17,7 +17,6 @@
           <option value="professor">Professor</option>
           <option value="coordenador">Coordenador</option>
         </select><br><br>
-      
         <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
         <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required><br><br>
       
@@ -37,11 +36,9 @@
             alert("Por favor, selecione um tipo de usuário.");
             return;
           }
-      
           // Salva os dados temporariamente
           sessionStorage.setItem("email", email);
           sessionStorage.setItem("senha", senha);
-      
           // Redireciona
           window.location.href = `cadastro_${tipo}.html`;
         });

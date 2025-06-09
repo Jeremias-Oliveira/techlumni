@@ -52,7 +52,8 @@ input[type="email"],
 input[type="password"],
 input[type="text"],
 input[type="number"],
-input[type="date"] {
+input[type="date"],
+input[type="tel"] {
     width: 100%;
     padding: 14px 16px;
     margin-bottom: 20px;
@@ -111,4 +112,8 @@ p {
   
   p a:hover {
     text-decoration: underline;
+  }
+
+  .voltar{
+    margin-left: 8px;
   }

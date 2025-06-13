@@ -9,7 +9,7 @@
 <body>
   <div class="formulario">
     <h2>Cadastro de Professor</h2>
-    <form action="/cadastrar_professor" method="POST">
+    <form action="cadastro_professor.php" method="POST">
       <input type="text" name="nome_completo" placeholder="Nome completo" required><br><br>
       <input type="date" name="data_nascimento" required><br><br>
       <input type="text" name="area_ensino" placeholder="Área de ensino"><br><br>
@@ -27,7 +27,7 @@
   
       <button type="submit">Cadastrar</button>
     </form>
-    <div class="voltar"><p><a href="cadastro.html">Voltar</a></p></div>
+    <div class="voltar"><p><a href="cadastro.php">Voltar</a></p></div>
   </div>
     <script>
         // Preenche automaticamente os campos com os dados do sessionStorage

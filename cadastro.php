@@ -22,7 +22,7 @@
       
         <button type="submit">Cadastrar</button>
       </form>
-      <p>Já tem Conta?<a href="index.html">Login</a>.</p>
+      <p>Já tem Conta?<a href="index.php">Login</a>.</p>
     </div>
       <script>
         document.getElementById("formCadastro").addEventListener("submit", function(event) {
@@ -40,7 +40,7 @@
           sessionStorage.setItem("email", email);
           sessionStorage.setItem("senha", senha);
           // Redireciona
-          window.location.href = `cadastro_${tipo}.html`;
+          window.location.href = `cadastro_${tipo}.php`;
         });
       </script>
   </body>
